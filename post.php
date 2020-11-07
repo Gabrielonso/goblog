@@ -26,6 +26,6 @@ else {
 	$_SESSION['table'] = DB::query("SELECT * FROM $user");
 }
 
-header('Location:http://localhost/registeration/blogPost_index.php')
+header('Location:http://localhost/goblog/blogPost_index.php')
 
 ?>
