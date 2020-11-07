@@ -38,6 +38,6 @@ elseif ( !isset($usernameErr) && !isset($cpasswordErr)) {
 	session_start();
 	$_SESSION['user'] = $requestDB['username'];
 	$_SESSION['password'] = $requestDB['password'];
-	header('Location:http://localhost/registeration/blogPost_index.php');
+	header('Location:http://localhost/goblog/blogPost_index.php');
 }
 ?>
